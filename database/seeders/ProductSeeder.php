@@ -11,7 +11,7 @@ class ProductSeeder extends Seeder
     {
         $faker = \Faker\Factory::create();
 
-        for ($i = 0; $i < 10; $i++) {
+        for ($i = 0; $i < 100; $i++) {
             Product::create([
                 'product_id'      => $faker->unique()->numerify('PROD-###'),
                 'name'            => $faker->words(2, true),
