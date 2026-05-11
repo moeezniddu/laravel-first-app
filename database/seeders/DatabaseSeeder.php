@@ -4,7 +4,7 @@ namespace Database\Seeders;
 
 use Illuminate\Database\Seeder;
 use Database\Seeders\ProductSeeder;
-// hello world
+// this is database seeder function
 class DatabaseSeeder extends Seeder
 {
     public function run(): void
